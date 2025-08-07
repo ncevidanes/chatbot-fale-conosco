@@ -1,5 +1,10 @@
 from flask import Flask, render_template, request, jsonify
 from nltk.chat.util import Chat, reflections
+from flask_cors import CORS # Adicione esta linha
+
+app = Flask(__name__)
+CORS(app)  # Adicione esta linha
+
 
 app = Flask(__name__)
 
