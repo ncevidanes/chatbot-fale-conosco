@@ -50,5 +50,8 @@ def chat():
     # Retorna a resposta em formato JSON
     return jsonify({"response": response})
 
+if __name__ == "__main__":
+    app.run(debug=True)
+
 # O PythonAnywhere não usa a função app.run() diretamente.
 # A lógica de como a aplicação roda será configurada no painel do PythonAnywhere.
