@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Definindo os pares de perguntas e respostas para o chatbot
 pairs = [
     [
-        r"olá|oi|tudo bem?",
+        "olá|oi|tudo bem?",
         ["Olá!", "Oi! Como posso te ajudar?", "Olá, tudo certo!"]
     ],
     [
