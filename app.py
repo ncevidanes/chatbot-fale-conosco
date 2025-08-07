@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 # Definindo os pares de perguntas e respostas para o chatbot
 pairs = [
-    ["oi",["Olá!", "Oi! Como posso te ajudar?", "Olá, tudo certo!"]],
+    [r"oi",["Olá!", "Oi! Como posso te ajudar?", "Olá, tudo certo!"]],
     [
         r"quais os seus horários de atendimento?",
         ["Nosso horário de atendimento é de segunda a sexta, das 9h às 18h."]
